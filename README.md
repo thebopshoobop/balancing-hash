@@ -31,6 +31,6 @@ The hashing algorithm itself is pretty simple. It is entirely contained within t
   * x is the seed number
   * i is the index of the current character in the key
   * |S| is the length of the key
-  * ∑ represents the [summation](https://en.wikipedia.org/wiki/Summation#Capital-sigma_notation) of all of the values of i from 0 to |S|.
+  * ∑ represents the [summation](https://en.wikipedia.org/wiki/Summation#Capital-sigma_notation) of all of the values of i from 0 to |S|-1 (all of the characters in the key).
 
   ![formula](https://i.imgur.com/Cq4B4sb.png)
